@@ -18,8 +18,8 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
 
-import { labels } from "@/app/tasks/data/data"
-import { taskSchema } from "@/app/tasks/data/schema"
+import { labels } from "@/app/data/data"
+import { taskSchema } from "@/app/data/schema"
 
 interface DataTableRowActionsProps<TData> {
   row: Row<TData>
